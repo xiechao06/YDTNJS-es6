@@ -23,9 +23,9 @@ var o = {
 
 assert.equal(o.foo.name, 'foo');
 assert.equal(o.bar.name, 'bar');
-assert.equal(o.baz.name, '');
-assert.equal(o.bam.name, '');
-assert.equal(o.biz.name, '');
+assert.equal(o.baz.name, 'baz');
+assert.equal(o.bam.name, 'bam');
+assert.equal(o.biz.name, 'biz');
 
 assert.equal(o.foo.bind(o).name, 'bound foo');
 
